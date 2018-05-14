@@ -1,0 +1,53 @@
+{
+    "endpoints": {
+        "v3": {
+            "cma": "https://api.contentstack.io/v3"
+        }
+    },
+    "credentials": {
+        "api_key": "bltd71abf58691e6def",
+        "authtoken": "blt9412cef07141dccc",
+        "organization_uid": "blt4f4e6b432491a182"
+    },
+    "data": {
+        "stack": 1,
+        "content_type": 2,
+        "entry": 2,
+        "asset": 1
+    },
+    "content_type": {
+        "schema": {
+            "singletext": 1,
+            "multitext": 1,
+            "rte": 1,
+            "markdown": 1,
+            "select": 1,
+            "number": 1,
+            "boolean": 1,
+            "date": 1,
+            "file": 1,
+            "link": 1,
+            "group": 1,
+            "reference": 1
+        },
+        "config": {
+            "type": "block",
+            "singleton": false
+        },
+        "group": {
+            "schema": {
+                "date": 2
+            },
+            "config": {
+                "internal_level": 1
+            }
+        }
+    },
+    "asset_folder": {
+        "count": 3,
+        "asset_presence": "each"
+    },
+    "config": {
+        "freshen": true
+    }
+}

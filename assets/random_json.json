@@ -1,0 +1,249 @@
+{
+	"variables": [],
+	"info": {
+		"name": "dashboard_api",
+		"_postman_id": "56f8d07e-6dac-5de3-31e7-4c09138a56c2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{endpoint}}/metrics/stack/{org_uid} - stacks in org uid for api service",
+			"request": {
+				"url": "{{endpoint}}/metrics/stack/blt97fc86b54c7e2ee6",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/stack/{org_uid}/{service} - stacks in org uid based on given service",
+			"request": {
+				"url": "{{endpoint}}/metrics/stack/blt97fc86b54c7e2ee6/cdn",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/stack/all/{service}   -  all stacks based on service",
+			"request": {
+				"url": "{{endpoint}}/metrics/stack/all/cdn",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/stack/all/{service}   -  all stacks based on overall service",
+			"request": {
+				"url": "{{endpoint}}/metrics/stack/overall",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/organization   -  organizations detail list",
+			"request": {
+				"url": "{{endpoint}}/organization",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/stack    -   stacks details list",
+			"request": {
+				"url": {
+					"raw": "{{endpoint}}/stack?org_uid=blt97fc86b54c7e2ee6",
+					"protocol": "https",
+					"host": [
+						"l030k70fd2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"stack"
+					],
+					"query": [
+						{
+							"key": "org_uid",
+							"value": "blt97fc86b54c7e2ee6",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/api  -   aggregated metrics of services",
+			"request": {
+				"url": "{{endpoint}}/metrics/api",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/api/overall   -   overall aggregation of all services",
+			"request": {
+				"url": "{{endpoint}}/metrics/api/overall",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/api/{service}   -   aggregation based on service",
+			"request": {
+				"url": "{{endpoint}}/metrics/api/ui",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/org/{org_uid}    -   single organization metrics",
+			"request": {
+				"url": "{{endpoint}}/metrics/org/blt97fc86b54c7e2ee6/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/api/org/{org_uid}/{api_key}    -   metrics for a stack under an organization",
+			"request": {
+				"url": "{{endpoint}}/metrics/api/org/blt97fc86b54c7e2ee6/blt5d60c2f77ae05785",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q"
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/org/{org_uid}    - metrics for organization",
+			"request": {
+				"url": "{{endpoint}}/metrics/api/org/blt97fc86b54c7e2ee6",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "{{endpoint}}/metrics/org/{org_uid}/{api_key}   -  metrics for a stack under an organization",
+			"request": {
+				"url": "{{endpoint}}/metrics/org/blt97fc86b54c7e2ee6/blt63310575b147212f",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authtoken",
+						"value": "2011hsotnasilet9892594294df980q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

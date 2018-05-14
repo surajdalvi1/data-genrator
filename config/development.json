@@ -1,0 +1,54 @@
+{
+    "endpoints": {
+        "v3": {
+            "cma": "http://localhost:8000/v3"
+        }
+    },
+    "credentials": {
+        "api_key": "blt103ca6d338130bc5",
+        "authtoken": "blt7cb6528ab874457a",
+        "organization_uid": "blta0b86904e2756059"
+    },
+    "data": {
+        "stack": 1,
+        "content_type": 2,
+        "entry": 50,
+        "asset": 0
+    },
+    "content_type": {
+        "schema": {
+            "singletext": 10,
+            "multitext": 5,
+            "rte": 20,
+            "markdown": 1,
+            "select": 1,
+            "number": 10,
+            "boolean": 1,
+            "date": 5,
+            "file": 1,
+            "link": 1,
+            "group": 2,
+            "reference": 1
+        },
+        "config": {
+            "type": "block",
+            "singleton": false
+        },
+        "group": {
+            "schema": {
+                "rte": 1,
+                "singletext": 1
+            },
+            "config": {
+                "internal_level": 2
+            }
+        }
+    },
+    "asset_folder": {
+        "count": 3,
+        "asset_presence": "each"
+    },
+    "config": {
+        "freshen": false
+    }
+}

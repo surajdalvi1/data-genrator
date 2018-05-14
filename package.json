@@ -1,0 +1,33 @@
+{
+  "name": "contentstack-data-builder",
+  "version": "1.0.0",
+  "description": "Contentstack data building utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "destroy": "node index.js destroy"
+  },
+  "engines": {
+    "node": ">=9.5.0",
+    "npm": ">=4.0.5"
+  },
+  "keywords": [
+    "contentstack",
+    "data",
+    "builder"
+  ],
+  "author": "Contentstack Dev",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "config": "^1.29.2",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.5",
+    "read-yaml": "^1.1.0",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2",
+    "uuid": "^3.2.1",
+    "write-yaml": "^1.0.0"
+  }
+}

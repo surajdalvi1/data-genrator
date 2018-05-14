@@ -1,0 +1,16 @@
+{
+    "endpoints": {
+        "v3": {
+            "cma": "https://api.contentstack.io/v3"
+        }
+    },
+    "credentials" :{
+        "authtoken": "",
+        "organization_uid": ""
+    },
+    "data": {
+        "stack": 1,
+        "content_type": 2,
+        "entry": 2
+    }
+}
